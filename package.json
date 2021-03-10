@@ -1,0 +1,13 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "This is a game",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/robin-dalbak/game.git"
+  },
+  "dependencies": {
+    "webpack": "^5.0.0",
+    "phaser": "^3.52.0"
+  }
+}
