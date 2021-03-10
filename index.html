@@ -125,7 +125,7 @@
             player.setVelocityX(0);
             player.anims.play('turn');
         }
-        if (cursors.up.isDown || this.game.input.activePointer.isDown && player.body.touching.down) {
+        if (cursors.up.isDown && player.body.touching.down) {
             player.setVelocityY(-330);
         }
     }
